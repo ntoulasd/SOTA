@@ -1,8 +1,4 @@
 #!/bin/bash
-if pidof -x "sotaindicator.sh" >/dev/null; then
-    echo "Process already running"
-exit;
-fi
 
 echo "Sota notification Running Ctrl+c to stop"  
 while [ 1 ]; do           
